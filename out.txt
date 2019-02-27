@@ -1,11 +1,9 @@
+Rampage
+Damage: 2,344,266
+
+MeraMakc
 Damage: 2,140,349
 
 слон
 Damage: 1,613,245
-
-Osten
-Damage: 1,530,383
-
-Andreiko
-Damage: 930,531
 

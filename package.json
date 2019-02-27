@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "export NODE_ENV=production && node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.4",
+    "express-multipart-file-parser": "^0.1.2",
     "gm": "^1.23.1",
+    "node-base64-image": "^1.0.5",
     "prompts": "^2.0.2",
     "rambda": "^2.3.1"
   }
