@@ -9,7 +9,7 @@ const recognizeImage = require('./recognize-image');
 const recognizedImageToJSON = require('./recognized-image-to-json');
 
 const tempFile = resolve(`./temp.png`);
-const port = 3000;
+const port = process.env.PORT || 3000;
 const app = express();
 const writeFile = promisify(fs.writeFile);
 

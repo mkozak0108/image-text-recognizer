@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cf56d39e-7f32-4b9d-9925-d934f864afb1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aptfile" afterPath="$PROJECT_DIR$/Aptfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -83,16 +82,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="node-base64-image.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/node-base64-image/dist/node-base64-image.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1610">
-              <caret line="117" column="24" lean-forward="false" selection-start-line="117" selection-start-column="18" selection-end-line="117" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,11 +102,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
               <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -163,7 +162,6 @@
         <option value="$PROJECT_DIR$/convert-image.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/recognize-image.js" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/recognized-image-to-json.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/src/helpers/index.js" />
@@ -173,6 +171,7 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/Aptfile" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -284,7 +283,7 @@
       <workItem from="1550657117057" duration="1434000" />
       <workItem from="1551102113653" duration="6161000" />
       <workItem from="1551172972043" duration="1402000" />
-      <workItem from="1551258477247" duration="10645000" />
+      <workItem from="1551258477247" duration="10830000" />
     </task>
     <task id="LOCAL-00001" summary="recognize image">
       <created>1551274614353</created>
@@ -307,11 +306,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551275209641</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add graphicksmagick">
+      <created>1551275517430</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1551275517430</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35107000" />
+    <option name="totallyTimeSpent" value="35292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -345,7 +351,8 @@
     <MESSAGE value="recognize image" />
     <MESSAGE value="add env variable" />
     <MESSAGE value="change Procfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="change Procfile" />
+    <MESSAGE value="add graphicksmagick" />
+    <option name="LAST_COMMIT_MESSAGE" value="add graphicksmagick" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -561,14 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="24" column="48" lean-forward="false" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/node-base64-image/dist/node-base64-image.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1610">
@@ -666,6 +665,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
           <folding />
         </state>
       </provider>
