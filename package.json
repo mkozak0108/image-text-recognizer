@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "export NODE_ENV=production && node server.js"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +16,8 @@
     "node-base64-image": "^1.0.5",
     "prompts": "^2.0.2",
     "rambda": "^2.3.1"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }
